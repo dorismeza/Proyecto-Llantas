@@ -1,3 +1,6 @@
+
+
+create database proyecto;
 use proyecto;
 
 CREATE TABLE `ubicacion` (
