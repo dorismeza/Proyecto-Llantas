@@ -9,14 +9,17 @@ app.use(morgan('dev'));
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 
-app.engine('handlebars',engine());
-app.set('views engine','handlebars');
-app.set('views','./src/views');
+//Configurando motor de plantillas 
+//set es para modificar
+app.engine('.hbs', engine({extname: '.hbs'}));
+app.set('view engine', '.hbs');
+app.set('views', './src/views');
 
-//app.use(require('/app/public',express.static(path.join((__dirname,'public/')))));
-app.use('/app',require('./rutas/index'));
-app.use(express.static(path.join(__dirname, 'public/')));
+//directorio de archivos
+app.use(express.static(path.join(__dirname, 'public')));
+app.use('/app',require('./rutas/index.js'));
 
+//Definiendo el servidor
 app.listen(app.get('port'),() => {
    console.log('Servidor Ejecutandose');
 });

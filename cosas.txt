@@ -1,3 +1,11 @@
 VIDEOS DE YOUTUBE
 NODEJS-𝗘𝗫𝗣𝗥𝗘𝗦𝗦-MYSQL-𝗕𝗢𝗢𝗦𝗧𝗥𝗔𝗣𝟱-HANDLEBARS - AppWeb Completa - "PARTE 1"
 https://youtu.be/ryZol6Qifv8
+
+
+usuario
+___________
+nombre 
+cuenta
+pass
+rol
