@@ -1,0 +1,46 @@
+body {
+  background-image: url(/img/fondoB.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.formulario {
+  background: transparent;
+  padding: 5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.5rem #b3abab;
+  color: white;
+}
+
+.ingresar {
+  background-color: rgb(0, 0, 0);
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 700 !important;
+  color: white;
+  box-shadow: 0 0 0.1rem #b3abab;
+
+}
+
+.ingresar :hover {
+  color: white;
+}
+
+.form-control{
+  background: rgb(155, 155, 155);
+  border-style: none;
+  transition: 0.5 ease-in;
+  outline: none;
+  box-shadow: none ;
+}
+@media (min-width: 200px) {
+  body {
+    background-image: url(/img/fondoB2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+}

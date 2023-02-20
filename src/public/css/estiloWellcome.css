@@ -1,0 +1,34 @@
+body{
+    background-image: url(/img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: block;
+}
+
+h6 {
+  font-family: "Noto Sans JP", sans-serif;
+  justify-content: center;
+}
+
+@media (min-width: 200px) {
+  body{
+
+    background-image: url(/img/fondomovil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  body{
+    background-image: url(/img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+}
